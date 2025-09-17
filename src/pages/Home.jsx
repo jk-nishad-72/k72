@@ -7,15 +7,15 @@ const Home = () => {
   return (
     <div>
 
-        <div className='h-screen w-screen fixed'>
-            < Video />
-        </div>
-        <div className='h-screen w-screen relative flex flex-col text-white justify-between '>
-        
+      <div className='h-screen w-screen fixed'>
+        < Video />
+      </div>
+      <div className='h-screen w-screen relative flex flex-col text-white justify-between '>
+
         <HomeHeroText />
-        <HomeBottomText/>
-        
-        </div>
+        <HomeBottomText />
+
+      </div>
 
 
     </div>

@@ -8,14 +8,12 @@ import Navbarcontex from './context/Navbarcontex.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <BrowserRouter>
-   <Stairs >
-   
-     <Navbarcontex>
-      < App/>
-     </Navbarcontex>
-   </Stairs>
- 
-   </BrowserRouter>
+    <BrowserRouter>
+      <Stairs >
+        <Navbarcontex>
+          < App />
+        </Navbarcontex>
+      </Stairs>
+    </BrowserRouter>
   </StrictMode>,
 )
